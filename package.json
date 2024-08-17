@@ -1,0 +1,36 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@types/node": "^22.3.0",
+    "autoprefixer": "^10.4.20",
+    "effector-swc-plugin": "^0.5.0",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.9",
+    "typescript": "^5.5.4",
+    "unplugin-swc": "^1.5.1",
+    "vite": "^5.4.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "@vue/compiler-sfc": "^3.4.37",
+    "@vue/server-renderer": "^3.4.37",
+    "@withease/factories": "^1.0.5",
+    "cross-fetch": "^4.0.0",
+    "effector": "^23.2.2",
+    "effector-vue": "^23.0.0",
+    "unplugin-vue-markdown": "^0.26.2",
+    "vike": "^0.4.183",
+    "vike-vue": "^0.8.0",
+    "vue": "^3.4.37"
+  }
+}
